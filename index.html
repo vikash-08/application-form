@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="main">
+        <h1 class="heading">Job Application (Web)</h1>
+
+        <form action="" class="form">
+          <div class="form-container">
+            <div class="form-element">
+              <label for="first-name"> First Name </label
+              ><input id="first-name" type="text" placeholder="Enter Your First Name" />
+            </div>
+
+            <div class="form-element">
+              <label for="last-name"> Last Name </label
+              ><input id="last-name" type="text" placeholder="Enter Your Last Name"/>
+            </div>
+
+            <div class="form-element">
+              <label for="email"> Email </label
+              ><input id="email" type="email" placeholder="Enter Your Email"/>
+            </div>
+
+            <div class="form-element">
+              <label for="job-role" class="job-role"> Job Role </label
+              ><select name="option" id="">
+                <option value="select">Select one</option>
+                <option value="frontend-developer">Frontend Developer</option>
+                <option value="backend-developer">Backend Developer</option>
+                <option value="full-stack-developer">
+                  Full Stack Developer
+                </option>
+                <option value="devops-engineer">Devops Engineer</option>
+              </select>
+            </div>
+
+            <div class="textarea form-element">
+              <label for="textarea">Address </label
+              ><textarea name="" id="textarea" rows="4" cols="50"></textarea >
+            </div>
+
+            <div class="form-element">
+              <label for="city"> City </label><input id="city" type="text" placeholder="Enter Your City Name"/>
+            </div>
+
+            <div class="form-element">
+              <label for="pincode"> Pincode </label
+              ><input id="pincode" type="number" placeholder="Enter Your Pin code">
+            </div>
+
+            <div class="form-element dev">
+              <label for="start-date"> Start Date</label>
+              <input id="start-date" type="date" />
+            </div>
+
+            <div class="form-element dev">
+              <label for="cv"> Upload your CV </label>
+              <input type="file" name="" id="cv" />
+            </div>
+         
+          </div>
+          <div class="submit">
+            <button type="submit">Apply</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
